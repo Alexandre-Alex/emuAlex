@@ -1,0 +1,13 @@
+[Unit]
+Description=GPICase safe shutdown
+
+[Service]
+WorkingDirectory=/storage/.cache
+ExecStart=/usr/bin/safeshutdown_gpi.py
+TimeoutStopSec=5
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
