@@ -1,30 +1,30 @@
 ### DISTRO INFORMATION ###
 
 # Distro name (full name, without special characters)
-  DISTRONAME="CoreELEC"
+  DISTRONAME="emuAlex"
 
 # Short distro description
-  DESCRIPTION="CoreELEC is a fast and user-friendly Kodi Entertainment Center distribution."
+  DESCRIPTION="emuAlex - A custom Kodi Center distribution for retro gaming and media."
 
 # Distribution Source location
   DISTRO_MIRROR="https://sources.libreelec.tv/mirror"
   DISTRO_SRC="https://sources.libreelec.tv/$DISTRO_VERSION"
 
 # Distribution Home URL
-  DISTRO_HOME_URL="https://coreelec.org"
+  DISTRO_HOME_URL="https://github.com/AlexandreOliveira"
 
 # Welcome Message for SSH Server (up to 5 Lines)
   GREETING0="##############################################"
-  GREETING1="#                  CoreELEC                  #"
-  GREETING2="#            https://coreelec.org            #"
+  GREETING1="#                  emuAlex                   #"
+  GREETING2="#         Laboratorio - estacaotwo           #"
   GREETING3="##############################################"
   GREETING4=""
 
 # Root password to integrate in the target system
-  ROOT_PASSWORD="coreelec"
+  ROOT_PASSWORD="root"
 
 # Partition labels for USB/SD installation media
-  DISTRO_BOOTLABEL="COREELEC"
+  DISTRO_BOOTLABEL="EMUALEX"
   DISTRO_DISKLABEL="STORAGE"
 
 
