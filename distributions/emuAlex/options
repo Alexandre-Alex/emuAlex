@@ -97,7 +97,7 @@
   SSH_ENABLED_DEFAULT="no"
 
 ### KODI SETTINGS ###
-# Mediacenter to use (kodi / no)
+# Mediacenter to use (kodi / lakka / emualex / no)
   MEDIACENTER="kodi"
 
 # Skins to install (Estuary)
