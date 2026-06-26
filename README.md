@@ -11,7 +11,6 @@ O objetivo principal deste projeto é criar uma imagem de sistema enxuta, estáv
 * **Dispositivo Alvo:** TV Box Amlogic S905W2
 * **Arquitetura:** `aarch64` (ARM 64-bit)
 * **Base do Sistema:** CoreELEC (Amlogic-ce / Amlogic-no)
-* **Estação de Compilação:** `estacaotwo`
 
 ---
 
