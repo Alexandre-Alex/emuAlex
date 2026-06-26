@@ -14,14 +14,4 @@ O objetivo principal deste projeto é criar uma imagem de sistema enxuta, estáv
 
 ---
 
-## 🚀 Como Compilar o Sistema
-
-A compilação é feita a partir do código-fonte, gerando uma imagem limpa diretamente na arquitetura alvo.
-
-1. **Preparar o Ambiente:**
-   Certifique-se de que todas as ferramentas de build (`build-essential`, `g++`, `make`, etc.) estão instaladas na máquina hospedeira.
-
-2. **Iniciar a Compilação (Soltar o Trator):**
-   Execute o comando mestre na raiz do diretório para iniciar o processo paralelo:
-   ```bash
-   PROJECT=Amlogic-ce DEVICE=Amlogic-no ARCH=aarch64 make image
+## 🚀
