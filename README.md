@@ -1,25 +1,28 @@
-# CoreELEC
+# 🎮 projeto_emuAlex
 
-CoreELEC is a 'Just enough OS' Linux distribution for running the award-winning [Kodi](https://kodi.tv) software on popular low-cost hardware. CoreELEC is a minor fork of [LibreELEC](https://libreelec.tv), it's built by the community for the community. [CoreELEC website](http://coreelec.org).
+O **projeto_emuAlex** é um sistema customizado de emulação e entretenimento baseado no ecossistema CoreELEC, otimizado especificamente para rodar em dispositivos com o chipset Amlogic S905W2. 
 
-**Documentation**
+O objetivo principal deste projeto é criar uma imagem de sistema enxuta, estável e de inicialização rápida, garantindo o máximo desempenho para retroaming, suporte a controles ZigBee/Bluetooth e reprodução de mídia local.
 
-- [CONTRIBUTING.md](CONTRIBUTING.md) — how to report issues and submit pull requests
-- [STANDARDS.md](STANDARDS.md) — coding standards for build scripts and package files
-- [packages/README.md](packages/README.md) — detailed guide to `package.mk` structure and variables
+---
 
-**Issues & Support**
+## 🛠️ Especificações do Ambiente
 
-Please report issues via the CoreELEC [Forum](https://discourse.coreelec.org).
+* **Dispositivo Alvo:** TV Box Amlogic S905W2
+* **Arquitetura:** `aarch64` (ARM 64-bit)
+* **Base do Sistema:** CoreELEC (Amlogic-ce / Amlogic-no)
+* **Estação de Compilação:** `estacaotwo`
 
-**Donations**
+---
 
-At this moment we do not accept Donations. We are doing this for fun not for profit.
+## 🚀 Como Compilar o Sistema
 
-**License**
+A compilação é feita a partir do código-fonte, gerando uma imagem limpa diretamente na arquitetura alvo.
 
-CoreELEC original code is released under [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html).
+1. **Preparar o Ambiente:**
+   Certifique-se de que todas as ferramentas de build (`build-essential`, `g++`, `make`, etc.) estão instaladas na máquina hospedeira.
 
-**Copyright**
-
-As CoreELEC includes code from many upstream projects it includes many copyright owners. CoreELEC makes NO claim of copyright on any upstream code. Patches to upstream code have the same license as the upstream project, unless specified otherwise. For a complete copyright list please checkout the source code to examine license headers. Unless expressly stated otherwise all code submitted to the CoreELEC project (in any form) is licensed under [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html). You are absolutely free to retain copyright. To retain copyright simply add a copyright header to each submitted code page. If you submit code that is not your own work it is your responsibility to place a header stating the copyright.
+2. **Iniciar a Compilação (Soltar o Trator):**
+   Execute o comando mestre na raiz do diretório para iniciar o processo paralelo:
+   ```bash
+   PROJECT=Amlogic-ce DEVICE=Amlogic-no ARCH=aarch64 make image
