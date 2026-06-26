@@ -267,8 +267,19 @@
 # build and install ALSA Audio support (yes / no)
   ALSA_SUPPORT="yes"
 
+# =========================================================================
 # additional packages to install:
-# Space separated list is supported,
-# e.g. ADDITIONAL_PACKAGES="PACKAGE1 PACKAGE2"
+# Space separated list is supported, e.g. ADDITIONAL_PACKAGES="PACKAGE1 PACKAGE2"
+# =========================================================================
   ADDITIONAL_PACKAGES="u-boot-script dtc CoreELEC-Debug-Scripts inject_bl301 ceemmc
                        nfs-utils dtb-xml megatools tmate parse-android-dynparts aml_recovery"
+
+# =========================================================================
+# Pacotes Adicionais da Distribuição emuAlex
+# =========================================================================
+# ADDITIONAL_PACKAGES="emualex emualex_update emuAlexSimpleClock usb-modeswitch-emualex
+#                      systemd retroarch joyutils sixpair empty retrorama_theme_xmb toolchain
+#                      linux glibc libusb libusb-compat Python3 lg-gpio cmake:host libevdev
+#                      expat icu inih util-macros libX11 libXfixes libXext openssl opus
+#                      dbus alsa-lib u-boot-script dtc CoreELEC-Debug-Scripts inject_bl301
+#                      ceemmc nfs-utils dtb-xml megatools tmate parse-android-dynparts"
